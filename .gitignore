@@ -1,0 +1,31 @@
+### Project 2: Grounded Document Assistant (Agentic RAG)
+
+#### `.gitignore`
+```gitignore
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment Secrets (CRITICAL: Do NOT push API keys)
+.env
+.env.local
+.env.*.local
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Ingested large test files
+*.pdf
